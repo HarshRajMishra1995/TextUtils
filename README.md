@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# App Demo
+Click on the link to Run app [Text Utils](https://harshrajmishra1995.github.io/TextUtils/)
+
 ## Available Scripts
 
 In the project directory, you can run:
