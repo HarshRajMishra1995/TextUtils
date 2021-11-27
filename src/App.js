@@ -1,11 +1,11 @@
 import React,{useState} from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Routes,
+//   Link
+// } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Alert from "./components/Alert";
 import Navabar from "./components/Navabar";
@@ -54,20 +54,19 @@ function App() {
   }
   return (
    <>
-    <Router>
 		<Navabar title="Text Utils" togglemode={ToggleMode} mode={mode} modeText={modeText} text={text}/>
     <Alert alert={alert}/>
     <div className="container my-3" >
-    <Switch>
+    <TextForm heading="Enter the Text Below"/>
+    </div>
+    {/* <Switch>
           <Route exact path="/about">
             <AboutUs />
           </Route>
           <Route exact path="/">
-          <TextForm heading="Enter the Text Below"/>
+          
           </Route>
-        </Switch>
-  </div>
-  </Router>
+        </Switch> */}
 	</>
   );
 }
